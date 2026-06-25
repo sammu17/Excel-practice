@@ -1,0 +1,16 @@
+# 🏏 T20 Cricket Innings Analytics Dashboard
+
+Welcome to my data analytics learning journey! This repository contains an automated stats tracking dashboard for a full 11-player cricket lineup built from scratch using Microsoft Excel.
+
+## 📊 Key Insights Extracted
+* **Total Team Output:** 457 runs scored off 300 deliveries.
+* **Match MVP:** Player B2 top-scoring with a massive 98 runs, contributing 21% of total runs while managing 28% of balls faced.
+* **Team Depth:** 6 out of 11 batsmen successfully achieved the "Great Innings" performance benchmark of 30+ runs.
+
+## 🛠️ Excel Skills & Formulas Featured
+* **Aggregations:** Used `SUM`, `AVG`, `MAX`, `MIN`, and `COUNT` to construct core scorecard analytics.
+* **Cell Locking:** Implemented **Absolute References (`$`)** to run baseline performance share ratios (`=B2/$B$10`).
+* **Conditional Logic:** Configured automated performance reviews via logical testing: `=IF(B2>=30, "Great Inn", "Need Improvement")`.
+* **Dynamic Sub-group Summaries:** Managed advanced calculations tracking elite player metrics using `SUMIF` and `COUNTIF` with custom wildcard strings (`"Great Inn*"`).
+* **Data Visualization:** Utilized dual-layer **Conditional Formatting** (Data Bars and Heat Map Color Scales) to surface top performers instantly.
+
